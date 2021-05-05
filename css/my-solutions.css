@@ -64,3 +64,13 @@
 .ex-7-img:hover{
     filter: sepia(0.6) grayscale(0.4);
 }
+
+/* es. 8 */
+.ex-8-img{
+    transition: all 1s ease-in;
+}
+
+.ex-8-img:hover{
+    border-radius: 20px;
+    filter: saturate(0.4) sepia(0.5);
+}
