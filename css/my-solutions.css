@@ -89,3 +89,19 @@
     border-radius: 20px;
     filter: sepia(0.5) grayscale(0.5);
 }
+
+/* es. 10 */
+.ex-10-icon{
+    animation: spinning-icon 1s infinite linear;
+}
+
+@keyframes spinning-icon {
+    
+    from{
+        transform: rotate(360deg)
+    }
+    to{
+        transform: rotate(0deg)
+    }
+    
+}
