@@ -74,3 +74,18 @@
     border-radius: 20px;
     filter: saturate(0.4) sepia(0.5);
 }
+
+/* es. 9 */
+.ex-9-img{
+    transition: all 1.5s ease-out;
+}
+
+.ex-9-img:hover{
+    width: 600px;
+    margin-top: calc((326.35px - 339.533px) / 2);
+    margin-bottom:  calc((326.35px - 339.533px) / 2);
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 20px;
+    filter: sepia(0.5) grayscale(0.5);
+}
