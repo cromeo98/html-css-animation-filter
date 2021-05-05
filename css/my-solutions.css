@@ -15,3 +15,12 @@
 .ex-2-square:active{
     width: 100%;
 }
+
+/* es. 3 */
+.ex-3-square{
+    transition: border-radius 0.4s ease-out 0s;
+}
+
+.ex-3-square:hover{
+    border-radius: 50%;
+}
