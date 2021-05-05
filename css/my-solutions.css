@@ -33,3 +33,20 @@
 .ex-4-square:hover{
     opacity: 0;
 }
+
+/* es. 5 */
+.ex-5-square{
+    transition: all 0.9s ease-out 0s;
+}
+
+.ex-5-square:hover{
+    margin: -10px;
+    width: 120px;
+    height: 120px;
+}
+
+.ex-5-square:active{
+    margin: 35px;
+    width: 30px;
+    height: 30px;
+}
