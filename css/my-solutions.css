@@ -122,3 +122,40 @@
         transform: rotate(0deg);
     }
 }
+
+/* es. 12 */
+.ex-12-button:hover .ex-12-top-white{
+    animation: move-top-border 1.5s linear;
+}
+
+@keyframes move-top-border{
+    0%{
+        left: 10%;
+    }
+
+    50%{
+        left: 135px;
+    }
+
+    100%{
+        left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: move-bottom-border 1.5s linear;
+}
+
+@keyframes move-bottom-border{
+    0%{
+        right: 20%;
+    }
+
+    50%{
+        right: 135px;
+    }
+
+    100%{
+        right: 20%;
+    }
+}
